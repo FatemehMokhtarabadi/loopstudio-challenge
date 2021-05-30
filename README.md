@@ -18,7 +18,7 @@ This is a solution to the [Loopstudios landing page challenge on Frontend Mentor
 
 ![](./active-states.jpg)
 
-### Screenshot
+### My work
 
 ![](./images/the-final-look.png)
 
