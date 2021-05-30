@@ -5,7 +5,7 @@ This is a solution to the [Loopstudios landing page challenge on Frontend Mentor
 ## Table of contents
 
 - [The challenge](#the-challenge)
-- [Screenshot](#screenshot)
+- [My work](#my-work)
 <!-- - [Links](#links) -->
 - [My process](#my-process)
   - [Built with](#built-with)
