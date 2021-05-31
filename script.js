@@ -1,5 +1,8 @@
 "use strict";
 
+// onclick="openNav()"
+// onclick="closeNav()"
+
 // selected elements
 const mobileMenu = document.querySelector(".mobile-menu");
 const main = document.querySelector(".hero");
@@ -11,10 +14,19 @@ const productCard = document.querySelector(".card");
 
 function openNav() {
   mobileMenu.style.width = "250px";
-  main.style.marginRight = "250px";
+  // main.style.marginRight = "250px";
 }
 
 function closeNav() {
   mobileMenu.style.width = "0px";
-  main.style.marginRight = "0px";
+  mobileMenu.display = "none";
+  // main.style.marginRight = "0px";
 }
+
+hamburgerIcon.addEventListener("click", function () {
+  openNav();
+});
+
+closeButton.addEventListener("click", function () {
+  closeNav();
+});

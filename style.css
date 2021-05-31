@@ -8,6 +8,7 @@
 }
 
 .hero {
+  overflow: hidden;
   background-image: url("./images/mobile/image-hero.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -35,6 +36,7 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  padding: 1em;
 }
 
 .hero .navigation .hamburger-icon {
@@ -75,10 +77,11 @@
 .hero .navigation .mobile-menu .closebtn {
   position: absolute;
   top: 0;
-  right: 30px;
-  padding-top: 16px;
+  right: 150px;
+  padding: 16px 0;
   font-size: 2rem;
-  margin-left: 50px;
+  margin-left: 30px;
+  color: white;
 }
 
 .hero-text {
@@ -131,7 +134,12 @@
 }
 
 .interactive-container .img {
-  border: white solid 50px;
+  max-width: 100%;
+}
+
+.interactive-container .img img {
+  max-width: 100vw;
+  padding: 1em 1.5em;
 }
 
 .interactive-container .text h1 {
@@ -181,21 +189,23 @@
 }
 
 .cards-section .mobile-creations .card {
-  max-width: 100vw;
   position: relative;
   margin: 50px;
+  max-width: 100%;
 }
 
 .cards-section .mobile-creations .card img {
+  max-width: 100vw;
   display: block;
+  padding: 1em;
 }
 
 .cards-section .mobile-creations .card p {
   position: absolute;
-  bottom: 50px;
+  bottom: 30px;
   left: 20px;
   color: white;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-family: "Josefin Sans", sans-serif;
 }
 
@@ -321,6 +331,10 @@ footer .socialmedia img {
   margin: 2em 0;
 }
 
+.attribution .attr-block {
+  display: block;
+}
+
 .attribution p {
   color: #8c8c8c;
 }
@@ -350,6 +364,7 @@ footer .socialmedia img {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+    padding: 3em;
   }
   .hero .navigation .mobile-menu {
     display: none;
@@ -389,7 +404,7 @@ footer .socialmedia img {
   .hero .hero-text {
     height: 25rem;
     margin-right: 20em;
-    margin-top: 6em;
+    margin-top: 4em;
   }
   .hero .hero-text p {
     color: white;
@@ -399,7 +414,7 @@ footer .socialmedia img {
     font-weight: 400;
     line-height: 60px;
     letter-spacing: -3px;
-    border: white solid 1px;
+    border: white solid 2px;
     padding: 15px 20px;
     letter-spacing: 0;
   }
@@ -448,9 +463,17 @@ footer .socialmedia img {
     text-align: center;
     max-width: 700px;
   }
+  .attribution .attr-block {
+    display: initial;
+  }
 }
 
 @media screen and (min-width: 1110px) {
+  .hero-text {
+    height: 25rem;
+    margin-right: 40em;
+    margin-top: 4em;
+  }
   .cards-section {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
