@@ -46,6 +46,7 @@
 }
 
 .hero .navigation .mobile-menu {
+  overflow-x: hidden;
   height: 100%;
   width: 0;
   position: fixed;
@@ -60,7 +61,7 @@
 }
 
 .hero .navigation .mobile-menu a {
-  padding: 8px 8px 8px 32px;
+  padding: 8px 2px 2px 12px;
   text-decoration: none;
   font-size: 15px;
   font-family: "Alata", sans-serif;
@@ -77,7 +78,7 @@
 .hero .navigation .mobile-menu .closebtn {
   position: absolute;
   top: 0;
-  right: 150px;
+  right: 70px;
   padding: 16px 0;
   font-size: 2rem;
   margin-left: 30px;
@@ -190,7 +191,6 @@
 
 .cards-section .mobile-creations .card {
   position: relative;
-  margin: 50px;
   max-width: 100%;
 }
 
@@ -331,10 +331,6 @@ footer .socialmedia img {
   margin: 2em 0;
 }
 
-.attribution .attr-block {
-  display: block;
-}
-
 .attribution p {
   color: #8c8c8c;
 }
@@ -366,17 +362,17 @@ footer .socialmedia img {
             justify-content: space-between;
     padding: 3em;
   }
-  .hero .navigation .mobile-menu {
+  .hero .mobile-menu {
     display: none;
   }
-  .hero .navigation .hamburger-icon {
+  .hero .hamburger-icon {
     display: none;
   }
-  .hero .navigation .desktop-nav {
+  .hero .desktop-nav {
     display: initial;
     padding-right: 15px;
   }
-  .hero .navigation .desktop-nav .nav-link {
+  .hero .desktop-nav .nav-link {
     position: relative;
     text-decoration: none;
     font-size: 15px;
@@ -384,7 +380,7 @@ footer .socialmedia img {
     color: white;
     padding: 0 5px;
   }
-  .hero .navigation .desktop-nav .nav-link::after {
+  .hero .desktop-nav .nav-link::after {
     content: "";
     width: 0%;
     height: 3px;
@@ -396,17 +392,17 @@ footer .socialmedia img {
     transition: 400ms all;
     background-color: white;
   }
-  .hero .navigation .desktop-nav .nav-link:hover::after {
+  .hero .desktop-nav .nav-link:hover::after {
     top: 100%;
     width: 60%;
     cursor: pointer;
   }
-  .hero .hero-text {
+  .hero-text {
     height: 25rem;
     margin-right: 20em;
     margin-top: 4em;
   }
-  .hero .hero-text p {
+  .hero-text p {
     color: white;
     text-align: left;
     font-size: 4.5rem;
@@ -418,7 +414,7 @@ footer .socialmedia img {
     padding: 15px 20px;
     letter-spacing: 0;
   }
-  .hero .hero-text p .hero-block {
+  .hero-text p .hero-block {
     display: inline;
   }
   .interactive-container {
@@ -462,9 +458,6 @@ footer .socialmedia img {
     padding: 0 2em;
     text-align: center;
     max-width: 700px;
-  }
-  .attribution .attr-block {
-    display: initial;
   }
 }
 

@@ -13,7 +13,7 @@ const productCard = document.querySelector(".card");
 // mobile hamburger menu
 
 function openNav() {
-  mobileMenu.style.width = "250px";
+  mobileMenu.style.width = "110px";
   // main.style.marginRight = "250px";
 }
 
