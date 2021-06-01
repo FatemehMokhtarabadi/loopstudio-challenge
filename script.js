@@ -14,13 +14,10 @@ const productCard = document.querySelector(".card");
 
 function openNav() {
   mobileMenu.style.width = "110px";
-  // main.style.marginRight = "250px";
 }
 
 function closeNav() {
   mobileMenu.style.width = "0px";
-  mobileMenu.display = "none";
-  // main.style.marginRight = "0px";
 }
 
 hamburgerIcon.addEventListener("click", function () {

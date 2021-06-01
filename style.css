@@ -46,7 +46,7 @@
 }
 
 .hero .navigation .mobile-menu {
-  overflow-x: hidden;
+  overflow: hidden;
   height: 100%;
   width: 0;
   position: fixed;
